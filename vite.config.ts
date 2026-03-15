@@ -5,6 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // 新增这一行，必须和仓库名一致
+  base: '/my-food-diary-01/',
   server: {
     host: "::",
     port: 8080,
